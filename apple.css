@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman';
+    border: border-box;
+    
+}
+
+#navbar{
+    height: 40px;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+
+#nav_apple_icon{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav_options{
+    display: flex;
+    height: 35px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#nav_search_icon{
+    height: 35px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav_cart_icon{
+    height: 35px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box_emi_offer{
+    display: flex;
+    height: 40px;
+    padding: 15px;
+    justify-content: center;
+}
+
+#emi_offer{
+    display: flex;
+    justify-content: center;
+}
+
+.apple_event{
+    border: 1px solid black;
+    height: 600px;
+    display: flex;
+    background-color: yellow;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    flex-direction: column;
+    
+}
+
+#learn_more_about_event{
+   border-radius: 20px;
+   height: 45px;
+   width: 130px;
+   background-color: rgb(8, 41, 230);
+   border: none;
+   font-size: 1.0rem;
+   color: azure;
+}
+
+.apple_add{
+    border: 1px solid black;
+    height: 800px;
+    display: flex;
+    background-color: rgb(32, 163, 43);
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+}
